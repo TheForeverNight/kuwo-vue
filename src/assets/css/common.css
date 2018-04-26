@@ -1,0 +1,21 @@
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
