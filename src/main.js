@@ -6,7 +6,7 @@ import router from './router'
 
 import './assets/js/htmlfontsize.js'
 
-import 'normalize.css'
+import 'reset.css'
 import './assets/css/common.css';
 
 Vue.config.productionTip = false
