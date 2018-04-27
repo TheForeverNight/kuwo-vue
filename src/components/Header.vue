@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "Header"
+  name: 'Header'
 };
 </script>
 
@@ -15,6 +15,10 @@ export default {
     width: 100%;
     height:0.88rem;
     background-color: #1da0ef;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
 }
 .logo{
     width:2.1rem;

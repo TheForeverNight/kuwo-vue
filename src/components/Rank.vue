@@ -3,3 +3,9 @@
       排行
   </div>
 </template>
+<script>
+export default {
+  name:'Rank'
+}
+</script>
+

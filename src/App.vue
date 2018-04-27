@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import Header from "./components/Header";
-import Nav from "./components/Nav";
+import Header from './components/Header';
+import Nav from './components/Nav';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Header,
     Nav
@@ -31,7 +31,7 @@ export default {
 }
 .router-view{
   width: 100%;
-  margin-top: 0.76rem;
+  margin-top: 1.65rem;
   height: auto;
 }
 </style>

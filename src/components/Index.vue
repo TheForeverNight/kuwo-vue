@@ -1,11 +1,15 @@
 <template>
-  <div>
-      推荐
+  <div class="">
+      <Banner></Banner>
   </div>
 </template>
 <script>
+import Banner from './Banner'
 export default {
-  name:'Index'
+  name:'Index',
+  components:{
+      Banner
+  }
 }
 </script>
 
