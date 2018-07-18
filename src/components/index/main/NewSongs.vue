@@ -25,10 +25,21 @@
     data: function () {
       return {
         newsongs: [{
-          title: '华语新歌推荐',
-          imgSrc: 'http://img1.kwcdn.kuwo.cn/star/upload/14/14/1466668131470_.jpg',
-          listennum: 4089
-        }]
+            title: '华语新歌推荐',
+            imgSrc: 'http://img1.kwcdn.kuwo.cn/star/upload/10/10/1466668022746_.jpg',
+            listennum: 5872
+          },
+          {
+            title: '日韩新歌推荐',
+            imgSrc: 'http://img1.kwcdn.kuwo.cn/star/upload/14/14/1466668131470_.jpg',
+            listennum: 4089
+          },
+          {
+            title: '欧美新歌推荐',
+            imgSrc: 'http://img2.kwcdn.kuwo.cn/star/upload/3/3/1466668204339_.jpg',
+            listennum: 4110
+          }
+        ]
       }
     }
   }
