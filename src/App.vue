@@ -27,11 +27,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  font-size: 14px;
+  font-size: 28px;
 }
 .router-view{
   width: 100%;
-  margin-top: 1.65rem;
+  margin-top: 154px;
   height: auto;
 }
 </style>

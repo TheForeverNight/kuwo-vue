@@ -4,12 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import './assets/js/htmlfontsize.js'
-
+// import './assets/js/htmlfontsize.js'
+import 'lib-flexible/flexible'
 import 'reset.css'
 import './assets/css/common.css';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+Vue.config.debug = true;
 
 /* eslint-disable no-new */
 new Vue({

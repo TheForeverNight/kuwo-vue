@@ -45,20 +45,19 @@ export default {
 <style>
 .nav {
   width: 100%;
-  height: 0.76rem;
+  height: 72px;
   border-bottom: 1px solid #ddd;
   background: #fff;
   position: fixed;
   left: 0;
-  top: 0.88rem;
+  top:80px;
   z-index: 2;
 }
 .nav .navitem {
   float: left;
   width: 20%;
-  font-size: 0.3rem;
   text-align: center;
-  line-height: 0.76rem;
+  line-height: 72px;
   color: #333;
   border-bottom: 2px solid transparent;
 }
