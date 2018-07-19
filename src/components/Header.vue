@@ -13,7 +13,7 @@ export default {
 <style>
 .header{
     width: 100%;
-    height:80px;
+    height:88px;
     background-color: #1da0ef;
     position: fixed;
     left: 0;

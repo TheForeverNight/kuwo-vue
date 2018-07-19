@@ -14,14 +14,13 @@
           <span class="playbtn fr"></span>
         </div>
       </a>
-
       <p>{{newsong.title}}</p>
     </div>
   </div>
 </template>
 <script>
   export default {
-    name: 'NewSongs',
+    name: 'DailyNewSong',
     data: function () {
       return {
         newsongs: [{
@@ -46,25 +45,72 @@
 
 </script>
 <style scoped>
+  .songmsg {
+    display: block;
+    position: relative
+  }
+
+  .songmsgpic {
+    width: 100%;
+    height: 300px;
+  }
+
   .newtip {
     position: absolute;
     left: 0;
     top: 0;
-    width: .5rem;
-    height: .5rem;
+    width: 50px;
+    height: 50px;
     background: url(https://image.kuwo.cn/mpage/html5/2016/newtip.png) no-repeat;
     background-size: 100%
   }
 
-  .newsong {
-    padding: 0 20px;
+  .songmsgpic img {
+    width: 100%;
+    height: 100%
   }
 
-  .newsong h3 {
-    font-size: 28px;
-    height: 75px;
-    line-height: 75px;
-    font-weight: bold
+  .newsong p {
+    font-size: 26px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .other {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 52px;
+    font-size: 22px;
+  }
+
+  .listen {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    line-height: 52px;
+    background: url(https://image.kuwo.cn/mpage/html5/2016/earphone.png) left center no-repeat;
+    background-size: 10%;
+    margin-left: 20px;
+  }
+
+  .listennum {
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transform: translate(24px, 0);
+    transform: translate(24px, 0);
+    color:#fff;
+  }
+
+  .playbtn {
+    width: 40px;
+    height: 40px;
+    background: url(https://image.kuwo.cn/mpage/html5/2016/playbtn1.png) no-repeat;
+    background-size: 100%;
+    margin-right: 12px;
   }
 
 </style>

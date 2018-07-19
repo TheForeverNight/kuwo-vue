@@ -1,0 +1,19 @@
+.swiper-slide {
+  width: 225px;
+  margin-right: 20px;
+}
+
+.swiper-slide img {
+  width: 225px;
+  height: 225px;
+  pointer-events: none
+}
+
+.swiper-slide p {
+  width: 100%;
+  color: #333;
+  text-align: left;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 6px;
+}
