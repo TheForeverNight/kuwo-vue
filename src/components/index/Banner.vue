@@ -19,7 +19,7 @@
 </template>
 
 <script>
-  import Swiper from 'swiper'
+  import Swiper from "swiper";
   export default {
     name: "Banner",
     data() {
@@ -40,23 +40,40 @@
         },
         // 如果需要分页器
         pagination: {
-          el: ".swiper-pagination",
+          el: ".swiper-pagination"
         },
         // 如果需要前进后退按钮
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
-        },
-        // 如果需要滚动条
-        scrollbar: {
-          el: ".swiper-scrollbar"
-        }
+        // navigation: {
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev"
+        // },
+        // // 如果需要滚动条
+        // scrollbar: {
+        //   el: ".swiper-scrollbar"
+        // }
       });
     }
-  }
+  };
 
 </script>
+<style>
+  .swiper-container {
+    width: 100%;
+    height: 312px;
+  }
 
-<style scoped>
-@import url("./test.css");
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+  }
+
+  .swiper-container-horizontal>.swiper-pagination .swiper-pagination-bullet {
+    margin: 0 14px;
+  }
+
 </style>

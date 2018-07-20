@@ -54,4 +54,5 @@
 </script>
 <style scoped>
   @import url('./custom.css');
+
 </style>
